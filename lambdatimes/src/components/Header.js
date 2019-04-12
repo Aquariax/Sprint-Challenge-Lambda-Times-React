@@ -22,12 +22,16 @@ const HeaderContainer = styled.div`
 const Date = styled.span`
   margin-left: 25px;
   flex: 1;
+  font-size: 12px;
+  align-self: flex-end;
 `
 
 const Temp = styled.span`
   text-align: right;
   margin-right: 25px;
   flex: 1;
+  font-size: 12px;
+  align-self: flex-end;
 `
 
 const LambdaHeader = styled.h1`
@@ -42,7 +46,7 @@ color: #000;
 const Header = () => {
   return (
     <HeaderContainer>
-      <Date>SMARCH 32, 2018</Date>
+      <Date>MARCH 32, 2018</Date>
       <LambdaHeader>Lambda Times</LambdaHeader>
       <Temp>98°</Temp>
     </HeaderContainer>
